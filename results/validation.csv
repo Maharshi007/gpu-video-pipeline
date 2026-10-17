@@ -1,0 +1,11 @@
+clip,width,height,frames,mode,filter,decode_ms,h2d_ms,kernel_ms,d2h_ms,process_ms,encode_ms,total_ms,processing_fps,end_to_end_fps,max_abs_diff,psnr_cpu_vs_gpu_db,validation,cpu_threads,pinned,encoder,preset,device
+crowd_run_120f,1920,1080,120,gpu,none,2.7311,0.4084,0.2527,0.6038,1.8867,0.0000,4.7316,777.9050,208.8326,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu,blur_naive,2.7719,0.8303,1.5458,0.9627,5.6910,0.0000,10.2091,255.5464,93.1016,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu,blur_separable,2.6715,0.4109,0.9086,0.6315,2.6400,0.0000,5.3693,506.2286,182.8770,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu,blur_tiled,2.6806,0.5610,1.1316,0.8130,3.2213,0.0000,6.2974,407.9581,118.4513,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu,sobel,2.7227,0.4047,0.1617,0.5780,1.7322,0.0000,4.5357,850.6874,210.2860,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu,none,2.7292,0.4078,0.2535,0.5893,1.8295,0.0000,4.5786,775.9734,196.4510,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu,blur_naive,2.9130,0.6276,1.5365,0.9602,3.7237,0.0000,7.1608,337.8050,101.1810,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu,blur_separable,2.7868,0.4372,0.9157,0.6455,2.6355,0.0000,5.5329,495.2613,177.8121,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu,blur_tiled,2.7966,0.5648,1.1312,0.9608,3.5904,0.0000,6.9183,379.3581,105.4944,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu,sobel,2.7517,0.4340,0.1665,0.6501,1.8939,0.0000,4.7360,750.7147,197.0916,0,inf,pass,8,0,none,medium,NVIDIA GeForce GTX 1650

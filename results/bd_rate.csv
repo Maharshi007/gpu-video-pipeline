@@ -1,0 +1,5 @@
+clip,tune,anchor,test,bd_rate_pct
+crowd_run_120f,psnr,libx264,libx265,1.53
+testsrc_1080p,psnr,libx264,libx265,15.43
+crowd_run_120f,none,libx264,libx265,-9.09
+testsrc_1080p,none,libx264,libx265,4.4

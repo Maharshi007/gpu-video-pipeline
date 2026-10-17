@@ -1,0 +1,41 @@
+clip,width,height,frames,mode,filter,decode_ms,h2d_ms,kernel_ms,d2h_ms,process_ms,encode_ms,total_ms,processing_fps,end_to_end_fps,max_abs_diff,psnr_cpu_vs_gpu_db,validation,cpu_threads,pinned,encoder,preset,device
+crowd_run_120f,1920,1080,120,cpu_1t,none,3.9244,0.0000,0.0000,0.0000,33.2654,2.8564,40.3159,30.0613,22.7989,,,skipped,1,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,cpu_8t,none,4.6022,0.0000,0.0000,0.0000,18.2153,4.4668,28.5765,54.8989,30.2085,,,skipped,8,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,gpu,none,6.0721,0.8394,0.2531,0.9306,3.0701,6.3035,17.8604,481.9556,48.2426,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu_pinned,none,5.9765,0.3652,0.2540,0.4678,3.3716,6.0542,16.7090,908.6944,46.2371,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,cpu_1t,blur_naive,2.8172,0.0000,0.0000,0.0000,234.1219,2.3248,239.8875,4.2713,4.1280,,,skipped,1,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,cpu_8t,blur_naive,3.5279,0.0000,0.0000,0.0000,89.1638,3.0577,96.3661,11.2153,10.1060,,,skipped,8,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,gpu,blur_naive,5.8723,0.8655,1.5329,0.9568,4.5267,5.6779,17.3054,294.2312,49.6129,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu_pinned,blur_naive,5.4897,0.3845,1.5331,0.4320,4.3787,4.8956,15.8430,421.4714,53.7393,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,cpu_1t,blur_separable,3.5138,0.0000,0.0000,0.0000,109.5185,2.5921,116.2788,9.1309,8.2708,,,skipped,1,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,cpu_8t,blur_separable,3.3084,0.0000,0.0000,0.0000,51.5604,3.2427,58.6272,19.3947,16.6446,,,skipped,8,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,gpu,blur_separable,5.6820,0.8506,0.9091,0.9289,3.9752,5.0038,15.9003,360.0853,54.5271,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu_pinned,blur_separable,5.4801,0.3558,0.9093,0.4343,3.8219,4.9934,15.8960,577.9866,57.0177,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,cpu_1t,blur_tiled,2.6629,0.0000,0.0000,0.0000,233.1026,2.2716,238.8538,4.2900,4.1400,,,skipped,1,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,cpu_8t,blur_tiled,3.4179,0.0000,0.0000,0.0000,89.8229,3.0862,96.8836,11.1330,10.0009,,,skipped,8,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,gpu,blur_tiled,5.7072,0.8250,1.1201,0.8996,3.9133,5.0171,15.8366,344.7477,53.5658,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu_pinned,blur_tiled,4.9593,0.3572,1.1285,0.4282,3.9455,5.1515,15.1220,518.4657,56.6193,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,cpu_1t,sobel,3.2069,0.0000,0.0000,0.0000,23.8178,3.5009,32.3420,41.9854,27.1075,,,skipped,1,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,cpu_8t,sobel,3.9584,0.0000,0.0000,0.0000,18.3406,5.0873,29.9896,54.5238,29.6387,,,skipped,8,0,libx264,veryfast,
+crowd_run_120f,1920,1080,120,gpu,sobel,5.0041,0.6931,0.1617,0.7953,2.5938,6.5827,18.1403,586.3920,35.2607,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+crowd_run_120f,1920,1080,120,gpu_pinned,sobel,4.2426,0.3153,0.1618,0.3472,2.3823,6.2067,15.5596,1189.7963,36.8456,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,cpu_1t,none,3.5631,0.0000,0.0000,0.0000,29.1737,2.2424,35.4759,34.2774,27.0482,,,skipped,1,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,cpu_8t,none,4.0761,0.0000,0.0000,0.0000,14.9823,3.3180,22.9709,66.7454,41.5302,,,skipped,8,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,gpu,none,4.5707,0.8040,0.2512,0.8946,2.7934,3.7516,11.4411,511.2224,82.4664,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu_pinned,none,4.0401,0.3880,0.2516,0.5100,3.1465,3.9150,11.4089,853.2889,83.5996,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,cpu_1t,blur_naive,3.1479,0.0000,0.0000,0.0000,227.8893,2.2501,233.0383,4.3881,4.2410,,,skipped,1,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,cpu_8t,blur_naive,3.6866,0.0000,0.0000,0.0000,79.3867,3.1191,86.7196,12.5966,10.8330,,,skipped,8,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,gpu,blur_naive,4.9310,0.8744,1.5337,0.9361,4.3121,3.8552,13.2673,298.5089,66.5566,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu_pinned,blur_naive,4.2433,0.3854,1.5330,0.4752,4.3426,3.5762,12.4090,409.1224,78.4992,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,cpu_1t,blur_separable,3.5089,0.0000,0.0000,0.0000,102.9400,2.1745,108.8188,9.7144,8.9615,,,skipped,1,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,cpu_8t,blur_separable,3.8131,0.0000,0.0000,0.0000,45.0701,3.4261,52.3567,22.1877,17.9225,,,skipped,8,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,gpu,blur_separable,5.6442,1.0471,0.9116,1.0681,4.4608,4.7055,16.2618,312.5344,59.2848,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu_pinned,blur_separable,6.5620,0.5540,0.9135,0.7476,5.4149,5.8695,18.1038,432.3823,49.8092,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,cpu_1t,blur_tiled,2.9298,0.0000,0.0000,0.0000,222.9399,2.1980,228.1093,4.4855,4.3041,,,skipped,1,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,cpu_8t,blur_tiled,3.4777,0.0000,0.0000,0.0000,79.9650,2.8761,87.1682,12.5055,11.1994,,,skipped,8,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,gpu,blur_tiled,4.9429,0.8713,1.1207,0.8835,4.0914,4.2778,13.5931,343.4896,68.0244,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu_pinned,blur_tiled,4.4421,0.3721,1.1199,0.3890,3.8675,3.6525,11.9976,520.9028,78.0837,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,cpu_1t,sobel,4.0924,0.0000,0.0000,0.0000,20.1246,3.1059,29.2013,49.6904,33.4195,,,skipped,1,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,cpu_8t,sobel,4.0283,0.0000,0.0000,0.0000,8.9343,4.0002,17.1563,111.9282,51.4103,,,skipped,8,0,libx264,veryfast,
+testsrc_1080p,1920,1080,120,gpu,sobel,5.3642,0.9740,0.1670,1.0361,3.2202,4.3609,12.8992,460.4323,65.4238,,,skipped,1,0,libx264,veryfast,NVIDIA GeForce GTX 1650
+testsrc_1080p,1920,1080,120,gpu_pinned,sobel,4.7760,0.3964,0.1653,0.4994,3.2033,4.2506,12.6311,928.6776,76.0942,,,skipped,1,1,libx264,veryfast,NVIDIA GeForce GTX 1650
